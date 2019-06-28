@@ -24,7 +24,7 @@ preferences:
   options:
   - label: Español
     value: spanish
-  - label: Portugues do Brasil 
+  - label: Português do Brasil 
     value: portuguese
   - label: 中文
     value: chinese
