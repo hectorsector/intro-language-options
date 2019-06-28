@@ -22,6 +22,8 @@ preferences:
   label: Language
   description: Choose your preferred language.
   options:
+  - label: English
+    value: english
   - label: Español
     value: spanish
   - label: Português do Brasil 
