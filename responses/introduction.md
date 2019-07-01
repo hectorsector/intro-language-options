@@ -1,3 +1,5 @@
+{% if preferences.language == 'english' %}
+
 # :wave: Welcome to GitHub Learning Lab's "Introduction to GitHub"
 
 To get started, I’ll guide you through some important first steps in coding and collaborating on GitHub.
@@ -118,3 +120,24 @@ You'll see a short description that explains your current notification status.
 
 <hr>
 <h3 align="center">Keep reading below to find your first task</h3>
+
+{% elsif preferences.language == 'spanish' %}
+
+# :wave: Bienvenido a "Introducción a  GitHub" de GitHub Learning Lab
+
+Para empezar, te guiaré a través de unos primeros pasos que son importantes  para programar y colaborar en GitHub. 
+
+:point_down: _Esta flecha indica que puedes expandir la ventana! Haz click en ellas durante el curso para más información._
+<details><summary>Qué es GitHub?</summary>
+<hr>
+  
+## Qué es GitHub?
+
+
+<hr>
+</details>
+
+<hr>
+<h3 align="center">Para encontrar tu siguiente tarea lee a continuación</h3>
+
+{% endif %}
